@@ -3,7 +3,7 @@
 import org.yaml.snakeyaml.Yaml
 
 
-void call() {
+def call() {
 
   String folderConfig = libraryResource('seed_jobs/folders.yaml')
 
