@@ -5,9 +5,7 @@ import org.yaml.snakeyaml.Yaml
 
 def call() {
 
-  String folderConfig = libraryResource('seed_jobs/folders.yaml')
-
-  def folders = new Yaml((folderConfig as File).text).load()
+  def folders = new Yaml(libraryResource('seed_jobs/folders.yaml')).load()
 
   folders.each { f ->
     folder(f.name) {
