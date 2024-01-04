@@ -1,0 +1,7 @@
+/**
+ * test.groovy
+ */
+
+void call() {
+    
+}

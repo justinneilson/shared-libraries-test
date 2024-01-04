@@ -1,0 +1,4 @@
+jobs:
+  - type: multibranchPipeline
+    name: terraform-modules
+    displayName: Terraform Modules
